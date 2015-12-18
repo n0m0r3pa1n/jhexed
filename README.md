@@ -12,6 +12,19 @@ We also offer the **JHexedPhotoView** which is a custom view/class you can use i
 ## How to use it?
 Move the **JHexedPhotoView** to your Android project. 
 
+Add to attrs.xml
+```
+<declare-styleable name="JHexedPhotoView">
+     <attr name="cellWidth" format="integer"/>
+     <attr name="cellHeight" format="integer"/>
+     <attr name="fieldWidth" format="integer"/>
+     <attr name="fieldHeight" format="integer"/>
+     <attr name="hexBorder" format="color"/>
+     <attr name="hexSelectedBorder" format="color"/>
+     <attr name="hexLineWidth" format="float"/>
+ </declare-styleable>
+```
+
 Set a container in an XML. 
 
 ```
