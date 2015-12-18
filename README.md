@@ -10,6 +10,8 @@ It has a bug fix for the Android devices which was causing the network not to ca
 We also offer the **JHexedPhotoView** which is a custom view/class you can use in your code. It can be found in the src library -> com.igormaznitsa.jhexed.engine.
 
 ## How to use it?
+Move the **JHexedPhotoView** to your Android project. 
+
 Set a container in an XML. 
 
 ```
@@ -67,3 +69,8 @@ Create an AsyncTask to load the images in background and then populate the view.
     }
 }.execute();
 ```
+
+## The Result
+
+![AppHunt jHexed Screenshot](./screens/NEW_screen5.png "Screenshot with jHexed from AppHunt")
+
